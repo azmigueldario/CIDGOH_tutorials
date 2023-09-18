@@ -311,4 +311,10 @@ done
 - Finished review of all tutorials, including updated to blurbs and additional references for further reading. 
 - Uploaded everything to `shared_notebooks` (`/share/jupyterNote`)  directory in **Seagull** 
 - Once everything is deployed, I will request feedback
+
+## 20230509 - Updated data pathways
+
+- Changed data locations (reference genomes, singularity images, executable tools) to the object storage drive shared between seagull and eagle
+- Rewrote the sections in the jupyter notebooks that references the old data locations
+
     
