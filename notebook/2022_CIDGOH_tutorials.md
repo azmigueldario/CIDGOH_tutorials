@@ -32,6 +32,7 @@ A virtual environment in python allows execution of the notebook in a bash kerne
 ```sh
 # Create a virtual environment to run the tutorials
 cd
+module load python
 python3 -m venv venv_tutorials
 source venv_tutorials/bin/activate
 conda deactivate
