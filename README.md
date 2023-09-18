@@ -16,3 +16,20 @@ Common processes in the group for microbial genomics isolate analysis include:
     - Annotation of genomic features using comprehensive databases
     - Define a matrix of genomic distances (SNP)
     - Produce a phylogenetic tree
+
+## Troubleshooting
+
+If by any chance, you cannot find a bash kernel (interpreter for shell command line in jupyter), you can quickly create one for your own use.
+
+First, open a terminal inside **Seagull** and run the following commands to create a virtual environment and install the bash_kernel inside
+
+```sh
+
+conda create -n bash_kernel
+conda activate bash_kernel
+pip3 install -m bash_kernel
+python3 -m bash_kernel.install
+conda deactivate
+```
+
+Then, in the Jupyter notebook interface, you should be able to choose **bash** as your kernel and run your notebook tutorial.
