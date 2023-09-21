@@ -331,4 +331,8 @@ done
 - Document how to make a bash kernel available in the server
 - Added section of required background knowledge
 - Checked grammar and corrected typos
--
+- Improved additional information for all tutorials. Now it includes more detailed explanation about every new concept and links for further reading.
+- Improved the README in case people want more reference about contents
+- Verified all singularity images and the correct running of processes
+- Will fork CIDGOH repo and propose a pull request.
+  
